@@ -1,0 +1,11 @@
+{application,erlpaxos,
+ [{description,"Support for Paxos"},
+  {vsn,"1.0.0"},
+  {modules,[erlpaxos, erlpaxos_sup]},
+  {registered, [erlpaxos]},
+  {mod, {erlpaxos, []}},
+  {env, []},
+  {applications,[kernel,stdlib,sasl]},
+  {start_phases,[]}
+ ]
+}.
